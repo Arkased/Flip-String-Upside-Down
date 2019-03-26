@@ -1,8 +1,8 @@
 # Flip-String-Upside-Down
 A fun little Python script which flips a string (English) upside down.
 
-Example Input: https://docs.google.com/document/d/1wLYuP8eRK0Dj6v-wp4CVCCuSJlYNVCzXoTouOC5Xw4s
-Example Output: https://docs.google.com/document/d/1lncDzbFkwAld2M7V5TlKb-HVQBO7I19MpnSHM3XnUJQ
+Input: https://docs.google.com/document/d/1wLYuP8eRK0Dj6v-wp4CVCCuSJlYNVCzXoTouOC5Xw4s
+Output: https://docs.google.com/document/d/1lncDzbFkwAld2M7V5TlKb-HVQBO7I19MpnSHM3XnUJQ
 
 This "program" consists of two scripts to mess up any text document: a Python script which flips a text string (English) upside down,
 and a Google Apps Script which mutates the font size and font color of a Google Document. The two parts can be used sepeartely or together,
