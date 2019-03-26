@@ -167,7 +167,7 @@ inp = inp.split('\n')
 out = out.split('\n')
 flip = {inp[i]:out[i] for i in range(len(inp))}
 
-def open_file(file = 'SOCIAL 1.4 The Constitution_ Reading .txt'):
+def open_file(file = 'test_input.txt'):
     file = open(file, 'r', errors = 'ignore', encoding = 'utf-8')
     text = file.read()
     file.close()
@@ -182,7 +182,7 @@ def flip_text(text):
             flipped_text = char + flipped_text
     return flipped_text
 
-def save_text(text, filename):
-    file = codecs.open(filename + '.txt', 'w', 'utf-8')
+def save_text(text, filename = 'test_output.txt'):
+    file = codecs.open(filename, 'w', 'utf-8')
     file.write(text)
     file.close()
