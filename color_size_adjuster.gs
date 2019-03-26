@@ -1,4 +1,6 @@
-// Modifies the style of text of a Google Document. You will need to give permission to this script for it to run and edit access to the document you wish to mess up.
+// Modifies the color and font size of a Google Document (can be adjusted for other types). You
+// will need to give permission to this script for it to run and edit access to the document you
+// wish to mess up.
 function modify() {
   var id = '1lncDzbFkwAld2M7V5TlKb-HVQBO7I19MpnSHM3XnUJQ';
   var text = DocumentApp.openById(id).getBody().editAsText();
