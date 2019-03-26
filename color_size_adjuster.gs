@@ -1,6 +1,12 @@
+// Link to GitHub repo: https://github.com/Arkased/Mutate-Text-Doc
+
 // Modifies the color and font size of a Google Document (can be adjusted for other types).
 // Other types of style mutations are possible, but I find font size and font color are the
-// two most visually impressive.
+// two most visually impressive adjustments.
+
+// Example Input: https://docs.google.com/document/d/1wLYuP8eRK0Dj6v-wp4CVCCuSJlYNVCzXoTouOC5Xw4s
+// Example Output: https://docs.google.com/document/d/1lncDzbFkwAld2M7V5TlKb-HVQBO7I19MpnSHM3XnUJQ
+// The original filename has also been run through the upside down script.
 
 // You will need to give permission to this script for it to run and edit access to the
 // document you wish to mess up.
