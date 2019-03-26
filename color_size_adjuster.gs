@@ -2,8 +2,12 @@
 // will need to give permission to this script for it to run and edit access to the document you
 // wish to mess up.
 function modify() {
+  // The id of the document you wish to modify. From the url of an open Google Doc, it is the second
+  // to last section: .../*id*/edit
   var id = '1lncDzbFkwAld2M7V5TlKb-HVQBO7I19MpnSHM3XnUJQ';
+  
   var text = DocumentApp.openById(id).getBody().editAsText();
+  
   // Edits each character individually
   for (var i = 0; i < text.getText().length; i++){
     var style = {};
