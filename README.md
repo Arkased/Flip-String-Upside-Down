@@ -1,5 +1,5 @@
-# Flip-String-Upside-Down
-A fun little Python script which flips a string (English) upside down.
+# Mutate-Text-Doc
+A fun little Python script which flips a string (English) upside down and/or systematically adjusts the font size and font color of a Google Doc.
 
 Input: https://docs.google.com/document/d/1wLYuP8eRK0Dj6v-wp4CVCCuSJlYNVCzXoTouOC5Xw4s
 
