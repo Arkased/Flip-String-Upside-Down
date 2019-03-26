@@ -31,7 +31,9 @@ def flip_text(text):
 
 def save_text(text, filename = 'test_output.txt'):
     """Writes a string to a new file. I ran into some issues with encoding if I
-    saved directly as a .docx file (Unicode characters of upside down lettersdon't render properly)
+    saved directly as a .docx file (Unicode characters of upside down letters
+    don't render properly). Copying the .txt file's contents directly into
+    Word seems to work.
     """
     file = codecs.open(filename, 'w', 'utf-8')
     file.write(text)
