@@ -1,6 +1,9 @@
-// Modifies the color and font size of a Google Document (can be adjusted for other types). You
-// will need to give permission to this script for it to run and edit access to the document you
-// wish to mess up.
+// Modifies the color and font size of a Google Document (can be adjusted for other types).
+// Other types of style mutations are possible, but I find font size and font color are the
+// two most visually impressive.
+
+// You will need to give permission to this script for it to run and edit access to the
+// document you wish to mess up.
 function modify() {
   // The id of the document you wish to modify. From the url of an open Google Doc, it is the second
   // to last section: .../*id*/edit
