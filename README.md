@@ -2,6 +2,7 @@
 A fun little Python script which flips a string (English) upside down.
 
 Input: https://docs.google.com/document/d/1wLYuP8eRK0Dj6v-wp4CVCCuSJlYNVCzXoTouOC5Xw4s
+
 Output: https://docs.google.com/document/d/1lncDzbFkwAld2M7V5TlKb-HVQBO7I19MpnSHM3XnUJQ
 
 This "program" consists of two scripts to mess up any text document: a Python script which flips a text string (English) upside down,
