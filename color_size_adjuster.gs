@@ -25,7 +25,7 @@ function modify() {
     var fontSize = Math.sin(i / 10 * Math.PI) * 4 + 11;
     style[DocumentApp.Attribute.FONT_SIZE] = fontSize;
     
-    // modifies the color map across a certain hue under hsl (I don't understand how this works)
+    // modifies the color under changing hue fixed saturation and lightness under hsl (I don't understand how this works)
     var color = hslToRgb((i * .017) % 1, 1, .4);
     color = rgbToHex(color[0], color[1], color[2]);
     style[DocumentApp.Attribute.FOREGROUND_COLOR] = color;
